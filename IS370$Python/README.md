@@ -1,39 +1,51 @@
-## IS-370 "Programming-1 : Python"
+<h6>ver. Aug-2021.</h6>
+<h2>IS-370 "Programming-1 : Python" </h2>
+<h4 style="color:green"><i> Prof. Sangmork "SAM" Park (Col(R). ROKAF)</i></h4>
+<h5><u><i>School of Arts and Science, Carolina University</i></u></h5>
 
-# Under Construction
+<h4>Textbook:</h4> 
+<img src = "../Images/IS370TextBook.jpg" alt = "IS 370 TextBook" width="150"/>
 
+<em><u>[Daniel Liang, 2021. "Introduction to Programming Using Python, 1st edition", Georgia Southern University](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-programming-using-python/P200000003454/9780137521272)</u></em>
 
-#### Textbook: _"Data Science Foundations Tools and Techniques: Core Skills for Quantitative Analysis with R and Git (Addison-Wesley Data & Analytics Series)"_ by Michael Freeman and Joel Ross  
-### _Prof._ **Sangmork "SAM" Park**
------
+<!-- ---
+<h4>Prerequisites</h4>
+--- -->
 
-### Course contents
-1. Intro. to Data Science
-      * Setting up Your Computer
-      * CLI: Bash Shell Commands
-2. Project Management
-      * Version Control System: Git & GitHub
-      * Documentation: Markdown
-3. R programming by RStudio / Visual Studio Code / RGui
-     * Foundational R Skills
-        * R syntax
-        * R data types
-        * Functions
-    * Data Wrangling
-        * R data frames
-        * Manipulating data with _"dplyr"_
-        * Reshaping data with _"tidyr"_
-        * Accessing databases: _"sqlite", "postgresql"_
-        * Accessing Web APIs: _"google geocoding", "yelp", etc._
-    * Data Visualization
-        * Data visualization design
-        * Crating visualization with _"ggplot2"_
-        * Interactive visualization with _"plotly", "rbokeh", "leaflet"_   
-    * Building and Sharing Applications
-        * Reports with _"R Markdown"_
-        * Interactive web application with _"shiny"_
-        * Working collaboration         
-4. Advanced Topics in Data Science
-    * Statical Analysis and Modelling
-    * Machine Learning 
------
+<!-- ---
+<h4>Course description</h4>
+---  -->
+
+<h4>Course Schedule</h4>
+
+<h5>Week-1: </h5>
+
+-   Quiz#1, Project#1
+
+<h5>Week-2: </h5>
+
+-   Quiz#2, Project#2
+
+<h5>Week-3: </h5>
+
+-   Quiz#3, Project#3
+
+<h5>Week-4: </h5>
+
+-   Mid-term exam, Project#4
+
+<h5>Week-5: </h5>
+
+-   Quiz#4, Project#5
+
+<h5>Week-6: </h5>
+
+-   Quiz#5, Project#6
+
+<h5>Week-7: </h5>
+
+-   Final exam, Final Project
+
+---
+
+<h4>References</h4>
