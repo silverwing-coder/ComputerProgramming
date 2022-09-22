@@ -1,4 +1,5 @@
 <h6>ver. Sep-2022.</h6>
+
 <h2>Ruby on Rails </h2>
 
 ---
@@ -16,7 +17,7 @@ npm install --global yarn
 3. Install sqlite: https://www.sqlite.org/download.html
     - Download and extract command-line tools
     - Create a folder for sqlite3 ("c:\\sqlite3")
-    - Add the folder to path (Settings -> Advanced system settings -> Environment Variables -> Path)
+    - Add the folder to path (Settings -> Advanced System Settings -> Environment Variables -> Path)
 4. Install ruby: https://www.ruby-lang.org/en/downloads/
 5. Install gem
 
