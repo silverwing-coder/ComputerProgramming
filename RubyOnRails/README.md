@@ -56,4 +56,6 @@ code
 
 ```
 
+8. Open a web-browser and goto "localhost:3000"
+
 ---
