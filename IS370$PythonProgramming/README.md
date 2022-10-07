@@ -1,12 +1,16 @@
 <h6>ver. Aug-2021.</h6>
-<h2>IS-370 "Programming-1 : Python" </h2>
-<h4 style="color:green"><i> Prof. Sangmork "SAM" Park (Col(R). ROKAF)</i></h4>
+<h3>IS-370 "Programming-1 : Python" </h3>
+<h5 style="color:green"><i> Prof. Sangmork "SAM" Park (Col(R). ROKAF)</i></h5>
 <h5><u><i>School of Arts and Science, Carolina University</i></u></h5>
+
+---
 
 <h4>Textbook:</h4> 
 <img src = "../Images/IS370TextBook.jpg" alt = "IS 370 TextBook" width="150"/>
 
 <em><u>[Daniel Liang, 2021. "Introduction to Programming Using Python, 1st edition", Georgia Southern University](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-programming-using-python/P200000003454/9780137521272)</u></em>
+
+---
 
 <!-- ---
 <h4>Prerequisites</h4>
