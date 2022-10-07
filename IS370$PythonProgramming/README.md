@@ -53,3 +53,8 @@
 ---
 
 <h4>References</h4>
+
+1. W3School: https://www.w3schools.com/python/
+2. Tutorialpoint: https://www.tutorialspoint.com/python/index.htm
+3. ThePythonGuru: https://thepythonguru.com/
+4. AwesomePython(GitHub): https://github.com/vinta/awesome-python
