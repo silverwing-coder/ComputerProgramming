@@ -37,7 +37,7 @@ This course is designed for students with little programming knowledge and exper
 
 <h5>Week-3: </h5>
 
--   Pointers, Memory managements, Selections
+-   Selections
 -   Quiz#3, Project#3
 
 <h5>Week-4: </h5>
