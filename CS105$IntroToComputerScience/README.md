@@ -10,7 +10,7 @@
 <h4>Textbook:</h4> 
 <img src = "../Images/CS105TextBook.jpg" alt = "IS 110 TextBook" width="150"/>
 
-<em><u>["Computer Science an Overview 13th Edition", J. Glenn Brookshear and Dennis Brylow.](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-programming-with-c/P200000003422/9780137558599)</u></em>
+<em><u>["Computer Science an Overview 13th Edition", J. Glenn Brookshear and Dennis Brylow.](https://www.pearson.com/en-us/subject-catalog/p/computer-science-an-overview/P200000003351/9780134875460)</u></em>
 ISBN 10 : 013487546X
 
 ---
