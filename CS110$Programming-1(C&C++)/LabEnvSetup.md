@@ -44,3 +44,7 @@
 2. Use the default g++ compiler in the O.S.
 
 ---
+
+<h3>References</h3>
+
+-   C++ compilers (support) : https://en.cppreference.com/w/cpp/compiler_support
