@@ -15,7 +15,7 @@
 
 2. Download and install MinGW (GNU for Windows) compiler
 
-    - **From Google: "MinGW download"**
+    - **From Googles: "MinGW download"**
     - Select all basic setup options <u> including g++ compiler </u>
 
 3. Setup PATH variable: Settings -> System -> About -> Advanced system settings -> Advanced -> Environment Variables -> Path -> Edit -> New -> Enter the path to the folder containing gcc
