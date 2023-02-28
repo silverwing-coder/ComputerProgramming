@@ -1,5 +1,5 @@
 <h6>ver. Dec-2022</h6>
-<h3>"C & C++" Programming Lab Environment Setup </h3>
+<h3>C & C++ Programming Lab Environment Setup </h3>
 <h5><i> Prof. Sangmork "SAM" Park (Col(R). ROKAF)</i></h5>
 <h5><u><i>School of Arts and Science, Carolina University</i></u></h5>
 
@@ -15,6 +15,7 @@
 
 2. Download and install MinGW (GNU for Windows) compiler
 
+    - Google search: **"MinGW download"**
     - Select all basic setup options <u> including g++ compiler </u>
 
 3. Setup PATH variable: Settings -> System -> About -> Advanced system settings -> Advanced -> Environment Variables -> Path -> Edit -> New -> Enter the path to the folder containing gcc
