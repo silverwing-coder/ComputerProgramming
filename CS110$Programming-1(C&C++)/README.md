@@ -63,6 +63,12 @@ This course is designed for students with little programming knowledge and exper
 
 ---
 
+<h4>Lab Environment Setup</h4>
+
+-   [C/C++ Programming Lab Environment Setup](LabEnvSetup.md)
+
+---
+
 <h4>References</h4>
 
 1. C programming (W3 School): https://www.w3schools.com/c/index.php
@@ -70,9 +76,3 @@ This course is designed for students with little programming knowledge and exper
 
 3. C++ programming (W3 School): https://www.w3schools.com/cpp/
 4. C++ programming (Tutorialpoint): https://www.tutorialspoint.com/cplusplus/index.htm
-
----
-
-<h4>Lab Environment Setup</h4>
-
--   [C/C++ Programming Lab Environment Setup](LabEnvSetup.md)

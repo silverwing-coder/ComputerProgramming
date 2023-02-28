@@ -59,6 +59,12 @@ The course materials are the textbook, presentation slides, web-article reading,
 
 ---
 
+<h4>Lab Environment Setup</h4>
+
+-   [C/C++ Programming Lab Environment Setup](<..\CS110$Programming-1(C&C++)\LabEnvSetup.md>)
+
+---
+
 <h4>References</h4>
 
 1. C programming (W3 School): https://www.w3schools.com/c/index.php
@@ -66,9 +72,3 @@ The course materials are the textbook, presentation slides, web-article reading,
 
 3. C++ programming (W3 School): https://www.w3schools.com/cpp/
 4. C++ programming (Tutorialpoint): https://www.tutorialspoint.com/cplusplus/index.htm
-
----
-
-<h4>Lab Environment Setup</h4>
-
--   [C/C++ Programming Lab Environment Setup](<..\CS110$Programming-1(C&C++)\LabEnvSetup.md>)
