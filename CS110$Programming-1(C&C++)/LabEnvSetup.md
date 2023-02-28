@@ -26,6 +26,20 @@
 
     ```
 
+4. Setup Makefile Environment on PowerShell
+
+    - Open PowerShell with **Admin privelege**
+
+    ```sh
+    # check chocolatey installed
+    choco
+    # install make
+    choco install make
+    # verify make version
+    make --version
+
+    ```
+
 <h4>Option-2: Notepad++ or Atom & MinGW</h4>
 
 1. Download install Notepad++ or Atom IDE
