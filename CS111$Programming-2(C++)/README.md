@@ -61,7 +61,7 @@ The course materials are the textbook, presentation slides, web-article reading,
 
 <h4>Lab Environment Setup</h4>
 
--   [C/C++ Programming Lab Environment Setup](<..\CS110$Programming-1(C&C++)\LabEnvSetup.md>)
+-   [C/C++ Programming Lab Environment Setup](<https://github.com/silverwing-coder/ComputerProgramming/blob/master/CS110%24Programming-1(C%26C%2B%2B)/LabEnvSetup.md>)
 
 ---
 
