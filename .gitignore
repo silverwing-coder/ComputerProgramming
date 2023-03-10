@@ -1,0 +1,6 @@
+# Foler/File to be ignored
+	*.txt
+	*.dat
+	tmp*
+	*.exe
+	*.o
