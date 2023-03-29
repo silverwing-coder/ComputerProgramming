@@ -93,6 +93,21 @@ public:
 
         return num_consonents;
     }
+
+    static int wordExist(string nword, string ntext){
+        int num_words = 0;
+        stringstream sstream(ntext);
+        string word;
+        while (!sstream.eof())
+        {
+            sstream >> word;
+            // cout << word << endl;
+            if(nword.compare(word) == 0)
+                num_words += 1;
+        }
+        return num_words;
+
+    }
 };
 
 int main()
@@ -121,10 +136,11 @@ int main()
 
     // cout << sms.getText();
     cout << "\n==============================================================" << endl;
-    cout << "There are " << (StringCount::getNumberOfWords(sms.getText())) - 1 << " words." << endl;
-    cout << "There are " << (StringCount::getNumberOfDigits(sms.getText())) << " digits." << endl;
-    cout << "There are " << (StringCount::getNumberOfCapitals(sms.getText())) << " capitals." << endl;
-    cout << "There are " << (StringCount::getNumberOfConsonents(sms.getText())) << " consonents." << endl;
+    // cout << "There are " << (StringCount::getNumberOfWords(sms.getText())) - 1 << " words." << endl;
+    // cout << "There are " << (StringCount::getNumberOfDigits(sms.getText())) << " digits." << endl;
+    // cout << "There are " << (StringCount::getNumberOfCapitals(sms.getText())) << " capitals." << endl;
+    // cout << "There are " << (StringCount::getNumberOfConsonents(sms.getText())) << " consonents." << endl;
+    cout << "There are " << (StringCount::wordExist("This", sms.getText())) << " consonents." << endl;
     cout << "--------------------------------------------------------------" << endl;
 
     return 0;
