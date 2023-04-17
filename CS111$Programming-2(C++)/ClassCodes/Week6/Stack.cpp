@@ -16,9 +16,11 @@ public:
         stack_size = 0;
         array_size = 3; // initialize smallest(default) array size
         elements = new T[array_size];
-
+        for (int i = 0; i < array_size; i++)
+        {
+            *(elements + i) = 0;
+        }
     };
-    
     ~Stack()
     {
         delete elements;
@@ -49,13 +51,17 @@ public:
 
             array_size *= 2;
             elements = new T[array_size];
-
+            for (int i = 0; i < array_size; i++)
+            {
+                *(elements + i) = 0;
+            }
+            // deep copy of elements
             for (int i = 0; i < stack_size; i++)
             {
                 *(elements + i) = *(temp_elements + i);
             }
             delete temp_elements;
-            cout << "Array size doubled to " << array_size << endl;
+            // cout << "Array size doubled to " << array_size << endl;
         }
     }
 
@@ -68,13 +74,18 @@ public:
 
             array_size = stack_size;
             elements = new T[array_size];
+            for (int i = 0; i < array_size; i++)
+            {
+                *(elements + i) = 0;
+            }
 
+            // deep copy of elements
             for (int i = 0; i < stack_size; i++)
             {
                 *(elements + i) = *(temp_elements + i);
             }
             delete temp_elements;
-            cout << "\nArray size halfed to " << array_size << endl;
+            // cout << "\nArray size halfed to " << array_size << endl;
         }
 
         stack_size -= 1;
@@ -85,16 +96,33 @@ public:
     {
         return stack_size;
     }
+
+    // T at(int idx)
+    // {
+    //     return *(elements + idx);
+    // }
+
+    T operator[](int idx)
+    {
+        return *(elements + idx);
+    }
 };
 
 int main()
 {
 
-    // Stack<int> intStack;
-    // for (int i = 0; i < 10; i++)
-    // {
-    //     intStack.push(i * 2);
-    // }
+    Stack<int> intStack;
+    for (int i = 0; i < 10; i++)
+    {
+        intStack.push(i * 2);
+    }
+
+    cout << "Integer Stack by [] index operator : " << endl;
+    for (int i = 0; i < 10; i++)
+    {
+        cout << intStack[i] << ", ";
+    }
+    cout << endl;
 
     // cout << "Integer Stack: " << endl;
     // while (!intStack.empty())
@@ -103,17 +131,17 @@ int main()
     // }
     // cout << endl;
 
-    Stack<string> strStack;
-    strStack.push("Winston-Salem");
-    strStack.push("Greensboro");
-    strStack.push("Pilot-City");
+    // Stack<string> strStack;
+    // strStack.push("Winston-Salem");
+    // strStack.push("Greensboro");
+    // strStack.push("Pilot-City");
 
-    cout << "String Stack: " << endl;
-    while (!strStack.empty())
-    {
-        cout << strStack.pop() << ", ";
-    }
-    cout << endl;
+    // cout << "String Stack: " << endl;
+    // while (!strStack.empty())
+    // {
+    //     cout << strStack.pop() << ", ";
+    // }
+    // cout << endl;
 
     return 0;
 }
