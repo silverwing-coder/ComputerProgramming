@@ -3,5 +3,8 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello CS-111" << endl;
+    int numA;
+    cout << "Enter a number: " << endl;
+    cin >> numA;
+    cout << "Square of " << numA << " is " << numA * numA;
 }
