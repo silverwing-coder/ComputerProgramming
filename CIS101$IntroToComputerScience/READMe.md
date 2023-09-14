@@ -1,5 +1,5 @@
 <h6>ver. Aug-2023</h6>
-<h3>CIS-101 "Introduction to Computer Science" </h3>
+<h3>CIS-101 "Introduction to Computer / Information Science" </h3>
 <h5><i> Prof. Sangmork "SAM" Park (Col(R). ROKAF)</i></h5>
 <h5><u><i>Department of Computer and Information Sciences, Virginia Military Institute</i></u></h5>
 
@@ -43,9 +43,11 @@ Refer to Course Syllabus
 <h4>*** Final Project ***</h4>
 
 <h5><u><em>"Develop your portpolio page" </em> </u> </h5>
+
 A. Sign-up a GitHub account and set up Git: [SAM's GitHub Reference](<https://github.com/silverwing-coder/Miscellaneous/blob/master/(Manual)GitHub.md>)
 
 B. Set up Web Programming Environment:
+
 -   Text Editor: Visual Studio Code or choose another one at your choice.
 -   Learn HTML / CSS / JavaScript.
 -   Learn p5.js: [p5\*js Home](htt.ps://p5js.org/)
