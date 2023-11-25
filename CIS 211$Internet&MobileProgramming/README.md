@@ -56,7 +56,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)</cod
 
 <li>Create GitHub Repositories and link them with your Visual Studio Code
 
-[--> Refer to GitHub.MD](https://github.com/)
+[--> Refer to GitHub.MD](https://github.com/silverwing-coder/Miscellaneous/blob/master/(Manual)GitHub.md)
 
 </li>
 </ol>
