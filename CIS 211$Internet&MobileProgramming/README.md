@@ -38,7 +38,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)</cod
 
 <li>Install IDE: "Android Studio" </li>
 
-[--> Download Android Studio from Android](https://www.oracle.com/java/technologies/downloads) </li>
+:point_right: [Download Android Studio from Android](https://www.oracle.com/java/technologies/downloads) </li>
 
 <li>An Android phone for testing</li>
 
@@ -47,16 +47,16 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)</cod
 <ol> 
 <li>Install a Text Editor: "Visual Studio Code" preferred </li>
 
-[--> Download Visual Studio Code](https://code.visualstudio.com/download) </li>
+:point_right: [Download Visual Studio Code](https://code.visualstudio.com/download) </li>
 
 <li>Install HTML/CSS/JavaScript extensions: "Prettier", "Live Server",  "JavaScript (ES6) code snippets", "HTML CSS Support", "ESLint", "GitLens", + ...</li><br>
 <li>Create GitHub Account
 
-[--> Sign up to GitHub](https://github.com/)</li>
+:point_right: [Sign up to GitHub](https://github.com/)</li>
 
 <li>Create GitHub Repositories and link them with your Visual Studio Code
 
-[--> Refer to GitHub.MD](https://github.com/silverwing-coder/Miscellaneous/blob/master/(Manual)GitHub.md)
+:point_right: [Refer to GitHub.MD](<https://github.com/silverwing-coder/Miscellaneous/blob/master/(Manual)GitHub.md>)
 
 </li>
 </ol>
@@ -79,6 +79,12 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)</cod
 
 </li>
 </ol>
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.`
+
+
+
 
 <!-- <img src = "../Images/CS110TextBook.jpg" alt = "IS 110 TextBook" width="150"/>
 
