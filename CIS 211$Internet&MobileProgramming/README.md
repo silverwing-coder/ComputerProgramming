@@ -80,8 +80,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)</cod
 </li>
 </ol>
 
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.`
+
 
 
 
