@@ -1,7 +1,8 @@
 <h6>ver. Nov-2023</h6>
 <h3>CS-211 "Internet & Mobile Programming" </h3>
 <h5><i> Prof. Sangmork "SAM" Park</i></h5>
-<h5 style="color:blue;"><i>Department of CIS, Virginia Military Institute</i></h5>
+
+<em>[Department of CIS, Virginia Military Institute](https://www.vmi.edu/academics/departments/computer-and-information-sciences/) </em>
 
 ---
 
@@ -10,7 +11,7 @@
 <li>Basic skills in Java programming</li>
 </ul>
 <h4>Course description:</h4>
-Under construction
+<ul>" Under construction "</ul>
 
 <!-- This course is designed for students with little programming knowledge and experience to prepare for more advanced programming courses. It covers elementary concepts and skills of computer programming and provides a foundation or learning additional aspects of programming by demonstrating problem-solving techniques and program design methodologies using C/C++. Topics include fundamentals of computer systems and programming, selection and iteration controls, functions, arrays, basic computer terminology, and software evelopment principles. C programming language will be introduced and touched on to explain the basics of computer programming during lectures. Students are required to use C/C++ in programming lab classes and course assignments. -->
 
@@ -26,15 +27,20 @@ Under construction
 ---
 
 <h4>Lab Environment Setup</h4>
+
 <h5>A. Mobile Programming :</h5>
 <ol> 
 <li>Install Java: "JDK/JRE" </li>
 
-[--> Download Java from ORACLE](https://www.oracle.com/java/technologies/downloads)
-<code>$java --version
+:point_right: [Download Java from ORACLE](https://www.oracle.com/java/technologies/downloads)
+
+```
+$java --version
+
 java 18.0.1.1 2022-04-22
 Java(TM) SE Runtime Environment (build 18.0.1.1+2-6)
-Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)</code>
+Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
+```
 
 <li>Install IDE: "Android Studio" </li>
 
@@ -42,7 +48,8 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)</cod
 
 <li>An Android phone for testing</li>
 
-</ol>
+</ol><br>
+
 <h5>B. Internet Programming :</h5>
 <ol> 
 <li>Install a Text Editor: "Visual Studio Code" preferred </li>
@@ -64,25 +71,23 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)</cod
 ---
 
 <h4>References</h4>
-<ol> 
-<li>
 
-[W3CSchools](https://www.w3schools.com/)</li>
+1. [W3CSchools](https://www.w3schools.com/)
 
-<li>
+2. [Tutorialpoint](https://www.tutorialspoint.com/index.htm)
 
-[Tutorialpoint](https://www.tutorialspoint.com/index.htm)</li>
-
-<li>
-
-[Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course)
-
-</li>
-</ol>
+3. [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course)
 
 
+<h4>Test</h4>
 
-
+1. Install a Text Editor: "Visual Studio Code" preferred 
+:point_right: [Download Visual Studio Code](https://code.visualstudio.com/download)<br><br>
+2. Install HTML/CSS/JavaScript extensions: "Prettier", "Live Server",  "JavaScript (ES6) code snippets", "HTML CSS Support", "ESLint", "GitLens", + ...<br><br>
+3. Create GitHub Account
+:point_right: [Sign up to GitHub](https://github.com/)<br><br>
+4. Create GitHub Repositories and link them with your Visual Studio Code
+:point_right: [Refer to GitHub.MD](<https://github.com/silverwing-coder/Miscellaneous/blob/master/(Manual)GitHub.md>)
 
 
 <!-- <img src = "../Images/CS110TextBook.jpg" alt = "IS 110 TextBook" width="150"/>
