@@ -79,17 +79,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
 3. [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course)
 
 
-<h4>Test</h4>
-
-1. Install a Text Editor: "Visual Studio Code" preferred 
-:point_right: [Download Visual Studio Code](https://code.visualstudio.com/download)<br><br>
-2. Install HTML/CSS/JavaScript extensions: "Prettier", "Live Server",  "JavaScript (ES6) code snippets", "HTML CSS Support", "ESLint", "GitLens", + ...<br><br>
-3. Create GitHub Account
-:point_right: [Sign up to GitHub](https://github.com/)<br><br>
-4. Create GitHub Repositories and link them with your Visual Studio Code
-:point_right: [Refer to GitHub.MD](<https://github.com/silverwing-coder/Miscellaneous/blob/master/(Manual)GitHub.md>)
-
-
 <!-- <img src = "../Images/CS110TextBook.jpg" alt = "IS 110 TextBook" width="150"/>
 
 <em><u>[Daniel Liang, "Introduction to Programming with C++, 3rd edition"](https://www.pearson.com/en-us/subject-catalog/p/introduction-to-programming-with-c/P200000003422/9780137558599)</u></em>
