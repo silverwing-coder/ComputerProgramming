@@ -11,21 +11,23 @@
 <li>Above "<b>C</b>" grade point in Programming-I</li>
 </ul>
 <h4>Course description:</h4>
-&emsp; " Under construction "
+<!-- &emsp; " Under construction " -->
 
-<!-- This course is designed for students with little programming knowledge and experience to prepare for more advanced programming courses.
-It covers elementary concepts and skills of computer programming and provides a foundation or learning additional aspects of programming by demonstrating problem-solving techniques and program design methodologies using C/C++. Topics include fundamentals of computer systems and programming, selection and iteration controls, functions, arrays, basic computer terminology, and software evelopment principles. C programming language will be introduced and touched on to explain the basics of computer programming during lectures. Students are required to use C/C++ in programming lab classes and course assignments. -->
+TThis course covers object-oriented programming using the Java programming language. Emphasis is on object-oriented skills, including classes, abstractions, encapsulation, inheritance, and polymorphism, which are the basis for developing applications that are easier to test, debug, and maintain. The course further introduces essential skills needed in writing recursive methods for solving inherently recursive problems. Skills in secure programming using exceptions handling will also be covered.
 
 ---
 
 <h4>Textbook</h4>
-&emsp; " Under construction "
+<!-- &emsp; " Under construction " -->
+<em>Roman Lysecky and Adrian Lizarraga, Java Early Objects, zyBook ISBN: 979-8-203-27850-0.</em>
 
 <h4>Lab Environment Setup</h4>
 <ol> 
-<li>Install Java: "JDK/JRE" </li>
+<br/><li>Install Java follwing the O.S. on your computer: "JDK/JRE" </li>
 
-:point_right: [Download Java Development Kit (JDK) from ORACLE](https://www.oracle.com/java/technologies/downloads)
+<br/>:point_right: [Download Java Development Kit (JDK) from ORACLE](https://www.oracle.com/java/technologies/downloads)
+
+Verify if it is installed properly as below.
 
 ```
 $java --version
@@ -35,13 +37,13 @@ Java(TM) SE Runtime Environment (build 18.0.1.1+2-6)
 Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
 ```
 
-<li>Install IDE: "Eclipse" </li>
+<br/><li>Install IDE: "Eclipse" </li>
 
-:point_right: [Download Eclipse from elipseide.org](https://eclipseide.org/) </li>
+<br/>:point_right: [Download Eclipse from elipseide.org](https://eclipseide.org/) </li>
 
-<li>Install JavaFX package for GUI:  </li>
+<br/><li><b><u>[GUI Application Development]</u></b> Install "JavaFX": </li>
 
-:point_right: [JavaFX](./GUI_JavaFX.md) </li>
+<br/>:point_right: [JavaFX](./GUI_JavaFX.md) </li>
 
 </ol><br>
 
