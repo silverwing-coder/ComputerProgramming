@@ -8,21 +8,21 @@
 
 <h4>Prerequisites: </h4>
 <ul>
-<li>Basic skills in Java programming</li>
+<li>Basic understanding in programming</li>
 </ul>
 <h4>Course description:</h4>
-<ul>" Under construction "</ul>
+&emsp; " Under construction "
 
-<!-- This course is designed for students with little programming knowledge and experience to prepare for more advanced programming courses. It covers elementary concepts and skills of computer programming and provides a foundation or learning additional aspects of programming by demonstrating problem-solving techniques and program design methodologies using C/C++. Topics include fundamentals of computer systems and programming, selection and iteration controls, functions, arrays, basic computer terminology, and software evelopment principles. C programming language will be introduced and touched on to explain the basics of computer programming during lectures. Students are required to use C/C++ in programming lab classes and course assignments. -->
+<!-- This course is designed for students with little programming knowledge and experience to prepare for more advanced programming courses.
+It covers elementary concepts and skills of computer programming and provides a foundation or learning additional aspects of programming by demonstrating problem-solving techniques and program design methodologies using C/C++. Topics include fundamentals of computer systems and programming, selection and iteration controls, functions, arrays, basic computer terminology, and software evelopment principles. C programming language will be introduced and touched on to explain the basics of computer programming during lectures. Students are required to use C/C++ in programming lab classes and course assignments. -->
 
 ---
 
 <h4>Textbook</h4>
 <h5>A. Mobile Programming :</h5>
-<em>(Tentative)</em> Web Programming with zyLabs
-
+&emsp; <em>(Tentative)</em> Mobile App Development with Android and Java
 <h5>B. Internet Programming :</h5>
-<em>(Tentative)</em> Mobile App Development with Android and Java
+&emsp; <em>(Tentative)</em> Web Programming with zyLabs
 
 ---
 
@@ -46,7 +46,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
 
 :point_right: [Download Android Studio from Android](https://www.oracle.com/java/technologies/downloads) </li>
 
-<li>An Android phone for testing</li>
+<li>An Android phone for testing your project</li>
 
 </ol><br>
 
@@ -63,7 +63,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
 
 <li>Create GitHub Repositories and link them with your Visual Studio Code
 
-:point_right: [Refer to GitHub.MD](<https://github.com/silverwing-coder/Miscellaneous/blob/master/(Manual)GitHub.md>)
+:point_right: [Refer to silverwing-coder's GitHub.MD](<https://github.com/silverwing-coder/Miscellaneous/blob/master/(Manual)GitHub.md>)
 
 </li>
 </ol>
@@ -77,7 +77,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
 2. [Tutorialpoint](https://www.tutorialspoint.com/index.htm)
 
 3. [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course)
-
 
 <!-- <img src = "../Images/CS110TextBook.jpg" alt = "IS 110 TextBook" width="150"/>
 

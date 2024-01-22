@@ -23,7 +23,7 @@ TThis course covers object-oriented programming using the Java programming langu
 
 <h4>Lab Environment Setup</h4>
 <ol> 
-<br/><li>Install Java follwing the O.S. on your computer: "JDK/JRE" </li>
+<br/><li>Install Java follwing the O.S.: "JDK/JRE" </li>
 
 <br/>:point_right: [Download Java Development Kit (JDK) from ORACLE](https://www.oracle.com/java/technologies/downloads)
 
