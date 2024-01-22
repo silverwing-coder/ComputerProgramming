@@ -13,7 +13,7 @@
 <h4>Course description:</h4>
 <!-- &emsp; " Under construction " -->
 
-TThis course covers object-oriented programming using the Java programming language. Emphasis is on object-oriented skills, including classes, abstractions, encapsulation, inheritance, and polymorphism, which are the basis for developing applications that are easier to test, debug, and maintain. The course further introduces essential skills needed in writing recursive methods for solving inherently recursive problems. Skills in secure programming using exceptions handling will also be covered.
+This course covers object-oriented programming using the Java programming language. Emphasis is on object-oriented skills, including classes, abstractions, encapsulation, inheritance, and polymorphism, which are the basis for developing applications that are easier to test, debug, and maintain. The course further introduces essential skills needed in writing recursive methods for solving inherently recursive problems. Skills in secure programming using exceptions handling will also be covered.
 
 ---
 
