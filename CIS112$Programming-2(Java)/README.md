@@ -23,7 +23,7 @@ This course covers object-oriented programming using the Java programming langua
 
 <h4>Lab Environment Setup</h4>
 <ol> 
-<br/><li>Install Java follwing the O.S.: "JDK/JRE" </li>
+<br/><li>Install "JDK/JRE" follwing the O.S. on your computer.  </li>
 
 <br/>:point_right: [Download Java Development Kit (JDK) from ORACLE](https://www.oracle.com/java/technologies/downloads)
 
@@ -38,6 +38,8 @@ Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
 ```
 
 <br/><li>Install IDE: "Eclipse" </li>
+
+You can choose eclipse work-space (where you develop / save java codes), JDK/JRE installation directory.
 
 <br/>:point_right: [Download Eclipse from elipseide.org](https://eclipseide.org/) </li>
 
