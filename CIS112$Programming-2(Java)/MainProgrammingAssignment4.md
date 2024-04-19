@@ -3,8 +3,8 @@
 
 <img src="./CIS112ProgrammingAssignment4_UML.png" alt="UML Diagram">
 
+<br><em><h4> Classes to be completed ... </h4></em>
 
-<br><em><h4> Classes to be implemented ... </h4></em>
 <ul>
 <li>StatementReport</li>
 <li>Account</li>
