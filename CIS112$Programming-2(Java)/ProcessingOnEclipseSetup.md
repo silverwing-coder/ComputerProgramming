@@ -6,8 +6,10 @@
 <h4>No outer frame: </h4>
 
 <ol>
-    <li>Download libraries</li>
-    <li>Link to libraries to the project: Select project --> Properties --> Java build path --> Classpath --> Add JARs --> select *.jar files downloaded </ol>
+    <li>Download library *.jar files</li> 
+    <li>Link to libraries to the project: Select project --> Properties --> Java build path --> Classpath --> Add JARs --> select *.jar files downloaded 
+<br><br>    <a href="https://github.com/silverwing-coder/ComputerProgramming/tree/master/CIS112%24Programming-2(Java)/ProcessingLibries">processing libraries for CIS-112 Demo</a>
+</ol>
 
 ---
 
