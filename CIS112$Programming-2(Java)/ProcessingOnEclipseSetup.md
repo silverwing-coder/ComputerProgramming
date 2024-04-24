@@ -35,7 +35,6 @@ public class MainFrame extends PApplet{
 	}
 
 	/* loop drawing images on canvas */
-
 	public void draw() {
 		background(150);
 	}
