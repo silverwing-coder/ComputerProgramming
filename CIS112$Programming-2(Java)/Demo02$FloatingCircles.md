@@ -5,13 +5,13 @@
 
 ```java
 public class Circle {
-	public int radius;
+	public int diameter;
 	public int locationX, locationY;
 	public int speedX, speedY;
 	public int[] color = new int[3];
 
-	public Circle(int radius, int[] location, int[] speed, int[] color) {
-		this.radius = radius;
+	public Circle(int diameter, int[] location, int[] speed, int[] color) {
+		this.diameter = diameter;
 		// deep copy required for reference variables
 		this.locationX = location[0];
 		this.locationY = location[1];
@@ -23,10 +23,10 @@ public class Circle {
 	}
 //
 //	public int getRadius() {
-//		return radius;
+//		return diameter;
 //	}
-//	public void setRadius(int radius) {
-//		this.radius = radius;
+//	public void setRadius(int diameter) {
+//		this.diameter = diameter;
 //	}
 //
 //	public int[] getLocation() {
@@ -75,12 +75,12 @@ public class MainApp extends PApplet{
 	/* initialize graphic environments */
 	public void settings() {
 		size(WIDTH, HEIGHT);
-		int radius;
+		int diameter;
 		int[] location = new int[2];
 		int[] speed = new int[2];
 		int[] color = new int[3];
 		for(int i = 0; i < NUM_CIRCLES; i++) {
-			radius = randNumGen.nextInt(50) + 30;
+			diameter = randNumGen.nextInt(50) + 30;
 			location[0] = randNumGen.nextInt(WIDTH-200) + 100;
 			location[1] = randNumGen.nextInt(HEIGHT-200) + 100;
 			speed[0] = 1;
@@ -88,7 +88,7 @@ public class MainApp extends PApplet{
 			color[0] = randNumGen.nextInt(255);
 			color[1] = randNumGen.nextInt(255);
 			color[2] = randNumGen.nextInt(255);
-			circles[i] = new Circle(radius, location, speed, color);
+			circles[i] = new Circle(diameter, location, speed, color);
 		}
 
 //		for(int i = 0; i < NUM_CIRCLES; i++) {
@@ -105,17 +105,17 @@ public class MainApp extends PApplet{
 			blue = circles[i].color[2];
 			fill(red, green, blue);
 
-			circle(circles[i].locationX + circles[i].speedX, circles[i].locationY + circles[i].speedY, circles[i].radius);
+			circle(circles[i].locationX + circles[i].speedX, circles[i].locationY + circles[i].speedY, circles[i].diameter);
 			circles[i].locationX = circles[i].locationX + circles[i].speedX;
 			circles[i].locationY = circles[i].locationY + circles[i].speedY;
 
-			if(circles[i].locationX + circles[i].radius/2 > WIDTH
-					|| circles[i].locationX - circles[i].radius/2 < 0) {
+			if(circles[i].locationX + circles[i].diameter/2 > WIDTH
+					|| circles[i].locationX - circles[i].diameter/2 < 0) {
 				circles[i].speedX *= -1;
 			}
 
-			if(circles[i].locationY + circles[i].radius/2 > HEIGHT
-					|| circles[i].locationY - circles[i].radius/2 < 0) {
+			if(circles[i].locationY + circles[i].diameter/2 > HEIGHT
+					|| circles[i].locationY - circles[i].diameter/2 < 0) {
 				circles[i].speedY *= -1;
 			}
 
@@ -123,7 +123,7 @@ public class MainApp extends PApplet{
 				if(i != j) {
 					distance = (int) Math.sqrt(Math.pow(circles[j].locationX - circles[i].locationX, 2) +
 							Math.pow(circles[j].locationY - circles[i].locationY, 2));
-					if (distance < circles[j].radius/2 + circles[i].radius/2) {
+					if (distance < circles[j].diameter/2 + circles[i].diameter/2) {
 						circles[i].speedX *= -1;
 						circles[i].speedY *= -1;
 					}
