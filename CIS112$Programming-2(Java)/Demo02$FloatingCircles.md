@@ -21,7 +21,7 @@ public class Circle {
 			this.color[i] = color[i];
 		}
 	}
-//
+
 //	public int getRadius() {
 //		return diameter;
 //	}
@@ -62,23 +62,27 @@ public class Circle {
 ```java
 public class MainApp extends PApplet{
 
-
 	int NUM_CIRCLES = 5;
 	int WIDTH = 900;
 	int HEIGHT = 600;
+
 	Circle[] circles = new Circle[NUM_CIRCLES];
 	Random randNumGen = new Random();
 
 	int red = 0, green = 0, blue = 0;
+
+	// collide
 	int distance = 0;
 
-	/* initialize graphic environments */
+	// initialize environments
 	public void settings() {
 		size(WIDTH, HEIGHT);
 		int diameter;
 		int[] location = new int[2];
 		int[] speed = new int[2];
 		int[] color = new int[3];
+
+		// create circles array
 		for(int i = 0; i < NUM_CIRCLES; i++) {
 			diameter = randNumGen.nextInt(50) + 30;
 			location[0] = randNumGen.nextInt(WIDTH-200) + 100;
@@ -105,20 +109,26 @@ public class MainApp extends PApplet{
 			blue = circles[i].color[2];
 			fill(red, green, blue);
 
-			circle(circles[i].locationX + circles[i].speedX, circles[i].locationY + circles[i].speedY, circles[i].diameter);
+			//create a circle
+			circle(circles[i].locationX , circles[i].locationY, circles[i].diameter);
+
+			//move a circle
 			circles[i].locationX = circles[i].locationX + circles[i].speedX;
 			circles[i].locationY = circles[i].locationY + circles[i].speedY;
 
+			// end of x-boundry
 			if(circles[i].locationX + circles[i].diameter/2 > WIDTH
 					|| circles[i].locationX - circles[i].diameter/2 < 0) {
 				circles[i].speedX *= -1;
 			}
 
+			// end of y-boundry
 			if(circles[i].locationY + circles[i].diameter/2 > HEIGHT
 					|| circles[i].locationY - circles[i].diameter/2 < 0) {
 				circles[i].speedY *= -1;
 			}
 
+			// if collide
 			for(int j = 0; j < NUM_CIRCLES; ++j) {
 				if(i != j) {
 					distance = (int) Math.sqrt(Math.pow(circles[j].locationX - circles[i].locationX, 2) +
@@ -133,7 +143,6 @@ public class MainApp extends PApplet{
 //			System.out.println(circles[i].getLocation()[0]);
 		}
 	}
-
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
